@@ -1,0 +1,11 @@
+---
+ref: my_st2_pack
+name: "My StackStorm Pack"
+description: Our collection of rules, sensors, workflows, and actions.
+version: 0.0.1
+dependencies:
+  - https://github.com/StackStorm-Exchange/stackstorm-git.git
+author: Rohit
+email: rohit.m@cloudifyops.com
+
+

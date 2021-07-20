@@ -1,0 +1,11 @@
+---
+name: github_action
+description: Metadata file for our GitHub triggered action
+runner_type: orquesta
+entry_point: workflows/github_action.yaml
+enabled: true
+parameters:
+  payload:
+    type: "object"
+    description: "GitHub repo change payload"
+    required: true
